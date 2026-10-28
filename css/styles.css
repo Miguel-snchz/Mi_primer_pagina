@@ -1,0 +1,134 @@
+/* Estilo general */
+body {
+    font-family: Arial;
+    background-color: #0d1b2a;
+    color: white;
+    margin: 20px;
+}
+
+/* Titulo principal */
+h1 {
+    text-align: center;
+    color: #64d8ff;
+    font-size: 35px;
+}
+
+/* Encabezado */
+header {
+    background-color: #1b263b;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #64d8ff;
+    border-radius: 15px;
+}
+
+/* Nombre */
+h2 {
+    text-align: center;
+    color: #64d8ff;
+    font-size: 28px;
+}
+
+/* Descripcion */
+body > p:first-of-type {
+    background-color: #1b263b;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #64d8ff;
+    font-weight: bold;
+}
+
+/* Campo del numero */
+#numero {
+    display: block;
+    padding: 12px;
+    margin: 0 auto;
+    border: 2px solid #64d8ff;
+    border-radius: 10px;
+    background-color: #1b263b;
+    color: white;
+}
+
+
+/* Respuesta del numero */
+.lejos {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Lista de pasiones */
+#pasion {
+    display: block;
+    padding: 12px;
+    margin: 0 auto;
+    border: 2px solid #64d8ff;
+    border-radius: 10px;
+    background-color: #1b263b;
+    color: white;
+}
+
+/* Texto de la pasion */
+#texto {
+    text-align: center;
+    color: #64d8ff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Imagen */
+#imagen {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #64d8ff;
+    border-radius: 15px;
+    display: none;
+    margin: 20px auto;
+}
+
+.ramdon {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #64d8ff;
+    border-radius: 15px;
+    display: none;
+    margin: 20px auto;
+}
+
+/* Boton */
+button {
+    display: block;
+    margin: 25px auto;
+    padding: 12px 25px;
+    background-color: #64d8ff;
+    color: #0d1b2a;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+    background-color: white;
+}
+
+/* Mensaje final */
+#salida {
+    text-align: center;
+    color: #64d8ff;
+    font-size: 17px;
+}
